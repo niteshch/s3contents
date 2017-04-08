@@ -35,8 +35,8 @@ class S3FS(HasTraits):
             "s3",
             aws_access_key_id=self.access_key_id,
             aws_secret_access_key=self.secret_access_key,
-            endpoint_url=self.endpoint_url,
-            region_name=self.region_name,
+            # endpoint_url=self.endpoint_url,
+            # region_name=self.region_name,
             config=config
         )
 
@@ -44,8 +44,8 @@ class S3FS(HasTraits):
             "s3",
             aws_access_key_id=self.access_key_id,
             aws_secret_access_key=self.secret_access_key,
-            endpoint_url=self.endpoint_url,
-            region_name=self.region_name,
+            # endpoint_url=self.endpoint_url,
+            # region_name=self.region_name,
             config=config
         )
 
